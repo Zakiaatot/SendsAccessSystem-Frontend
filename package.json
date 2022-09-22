@@ -1,0 +1,35 @@
+{
+  "name": "sendsaccesssystem-frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.1.1",
+    "animate.css": "^4.1.1",
+    "animation-vue": "^0.0.9",
+    "axios": "^0.27.2",
+    "js-md5": "^0.7.3",
+    "pinia": "^2.0.17",
+    "pinia-plugin-persistedstate": "^2.1.1",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.35.3",
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "consola": "^2.15.3",
+    "eslint": "^8.21.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.0.4",
+    "vite-plugin-style-import": "^2.0.0"
+  }
+}
